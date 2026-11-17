@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: '前端面试突击',
+  // 加这一行：'/仓库名/'
+  base: '/interview-assault/',
   description: '前端面试知识库 · 高频考点 · 真题解析',
   lang: 'zh-CN',
   head: [
